@@ -1,0 +1,167 @@
+name: shoppingappuistarter
+description: UI Starter Kit for shopping app
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  carousel_slider: ^2.1.0
+  flutter_svg: ^0.17.4
+  flutter_staggered_grid_view: ^0.3.0
+  sticky_headers: ^0.1.8+1
+  datetime_picker_formfield: ^1.0.0
+  curved_navigation_bar: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/img/onboarding0.png
+    - assets/img/onboarding1.png
+    - assets/img/onboarding2.png
+    - assets/img/onboarding3.png
+    - assets/img/twitter.png
+    - assets/img/facebook.png
+    - assets/img/google-plus.png
+    - assets/img/linkedin.png
+    - assets/img/user1.jpg
+    - assets/img/user2.jpg
+    - assets/img/user3.jpg
+    - assets/img/user0.jpg
+    - assets/img/visa.png
+    - assets/img/paypal.png
+    - assets/img/apple_pay.png
+    - assets/img/slovakia.png
+    - assets/img/united-states-of-america.png
+    - assets/img/marker.png
+    - assets/img/pro1.webp
+    - assets/img/pro2.webp
+    - assets/img/pro3.webp
+    - assets/img/pro4.webp
+    - assets/img/pro5.webp
+    - assets/img/pro6.webp
+    - assets/img/pro7.webp
+    - assets/img/man1.webp
+    - assets/img/man2.webp
+    - assets/img/man3.webp
+    - assets/img/man4.webp
+    - assets/img/man5.webp
+    - assets/img/man6.webp
+    - assets/img/man7.webp
+    - assets/img/man8.webp
+    - assets/img/baby1.webp
+    - assets/img/baby2.webp
+    - assets/img/baby3.webp
+    - assets/img/baby4.webp
+    - assets/img/baby5.webp
+    - assets/img/baby6.webp
+    - assets/img/home1.webp
+    - assets/img/home2.webp
+    - assets/img/home3.webp
+    - assets/img/home4.webp
+    - assets/img/home5.webp
+    - assets/img/home6.webp
+    - assets/img/home7.webp
+    - assets/img/home8.webp
+    - assets/img/home9.webp
+    - assets/img/home10.webp
+    - assets/img/home11.webp
+    - assets/img/sport1.webp
+    - assets/img/sport2.webp
+    - assets/img/sport3.webp
+    - assets/img/sport4.webp
+    - assets/img/sport5.webp
+    - assets/img/sport6.webp
+    - assets/img/sport7.webp
+    - assets/img/sport8.webp
+    - assets/img/sport9.webp
+    - assets/img/sport10.webp
+    - assets/img/watch1.webp
+    - assets/img/watch2.webp
+    - assets/img/watch3.webp
+    - assets/img/watch4.webp
+    - assets/img/watch5.webp
+    - assets/img/watch6.webp
+    - assets/img/watch7.webp
+    - assets/img/watch8.webp
+    - assets/img/watch9.webp
+    - assets/img/acer.svg
+    - assets/img/apple.svg
+    - assets/img/casio.svg
+    - assets/img/samsung.svg
+    - assets/img/xerox.svg
+    - assets/img/nikon.svg
+    - assets/img/intel.svg
+    - assets/img/huawei.svg
+    - assets/img/gopro.svg
+    - assets/img/hp.svg
+    - assets/img/logo-03.svg
+    - assets/img/logo-04.svg
+    - assets/img/logo-05.svg
+    - assets/img/logo-06.svg
+    - assets/img/logo-07.svg
+    - assets/img/logo-08.svg
+    - assets/img/logo-09.svg
+    - assets/img/logo-10.svg
+    - assets/img/logo-11.svg
+    - assets/img/slider1.jpg
+    - assets/img/slider2.jpg
+    - assets/img/slider3.jpg
+  fonts:
+    - family:  ShoppingAppUiStarter
+      fonts:
+        - asset: assets/fonts/ShoppingAppUiStarter.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
