@@ -1,11 +1,11 @@
 {
-    "name": "shopping_app_ui_starter",
-    "short_name": "shopping_app_ui_starter",
+    "name": "Shopping App UI Demo",
+    "short_name": "Shopping",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Shopping App UI Demo",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
